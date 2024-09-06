@@ -1,0 +1,141 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+
+.filterHeading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.filterHeading.light {
+  color: #4e148c;
+}
+
+.filterHeading.dark {
+  color: #f7f9f7;
+}
+
+.filterTransit {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  border-radius: 10px;
+}
+
+.filterTransit.light {
+  width: 272px;
+  background-color: #e8ebf2;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.filterTransit.dark {
+  background-color: #4e148c;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.option {
+  display: flex;
+  gap: 20px;
+}
+
+.option.light {
+  padding-left: 35px;
+}
+
+.option.dark {
+  padding-left: 0;
+}
+
+.transitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  background-color: #e8ebf2;
+  border-radius: 4px;
+}
+
+.transitBtn.light {
+  border: solid #4e148c 1px;
+}
+
+.transitBtn.dark {
+  border: solid #f7f9f7 1px;
+}
+
+.transitBtn img {
+  display: none;
+}
+
+.transitBtn.active img {
+  display: flex;
+}
+
+.transitBtn:hover img {
+  display: flex;
+}
+
+.airlineBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  background-color: #e8ebf2;
+  border-radius: 50%;
+}
+
+.airlineBtn.light {
+  border: solid #4e148c 1px;
+}
+
+.airlineBtn.dark {
+  border: solid #f7f9f7 1px;
+}
+
+.airlineBtn div {
+  display: none;
+}
+
+.airlineBtn:hover div,
+.airlineBtn div.active {
+  display: flex;
+}
+
+.airlineBtn div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.airlineBtn div.light {
+  background-color: #4e148c;
+}
+
+.airlineBtn div.dark {
+  background-color: #f7f9f7;
+}
+
+.optionName {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.optionName.light {
+  color: #858ae3;
+}
+
+.optionName.dark {
+  color: #f7f9f7;
+}
+
+@media screen and (max-width: 1080px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "id": 15,
+    "company": "Победа",
+    "logo": "assets/airline_pobeda.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 12680,
+    "currency": "RUB",
+    "time": {
+      "start": "12:00",
+      "end": "16:30"
+    },
+    "duration": 270,
+    "transit": {
+      "value": 1,
+      "name": "1 пересадка"
+    }
+  },
+  {
+    "id": 16,
+    "company": "S7 Airlines",
+    "logo": "assets/airline_airlines.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 23995,
+    "currency": "RUB",
+    "time": {
+      "start": "08:50",
+      "end": "19:30"
+    },
+    "duration": 640,
+    "transit": {
+      "value": 3,
+      "name": "3 пересадки"
+    }
+  },
+  {
+    "id": 17,
+    "company": "Red Wings",
+    "logo": "assets/airline_redwings.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 21500,
+    "currency": "RUB",
+    "time": {
+      "start": "14:00",
+      "end": "16:00"
+    },
+    "duration": 120,
+    "transit": {
+      "value": 0,
+      "name": "Без пересадки"
+    }
+  },
+  {
+    "id": 18,
+    "company": "Red Wings",
+    "logo": "assets/airline_redwings.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 37500,
+    "currency": "RUB",
+    "time": {
+      "start": "22:00",
+      "end": "01:00"
+    },
+    "duration": 180,
+    "transit": {
+      "value": 2,
+      "name": "2 пересадки"
+    }
+  },
+  {
+    "id": 19,
+    "company": "Победа",
+    "logo": "assets/airline_pobeda.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 18800,
+    "currency": "RUB",
+    "time": {
+      "start": "07:50",
+      "end": "11:15"
+    },
+    "duration": 205,
+    "transit": {
+      "value": 0,
+      "name": "Без пересадки"
+    }
+  },
+  {
+    "id": 20,
+    "company": "S7 Airlines",
+    "logo": "assets/airline_airlines.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 23995,
+    "currency": "RUB",
+    "time": {
+      "start": "04:50",
+      "end": "13:30"
+    },
+    "duration": 520,
+    "transit": {
+      "value": 2,
+      "name": "2 пересадки"
+    }
+  },
+  {
+    "id": 21,
+    "company": "S7 Airlines",
+    "logo": "assets/airline_airlines.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 9723,
+    "currency": "RUB",
+    "time": {
+      "start": "18:30",
+      "end": "05:40"
+    },
+    "duration": 700,
+    "transit": {
+      "value": 3,
+      "name": "3 пересадки"
+    }
+  },
+  {
+    "id": 22,
+    "company": "Red Wings",
+    "logo": "assets/airline_redwings.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 19700,
+    "currency": "RUB",
+    "time": {
+      "start": "01:40",
+      "end": "03:55"
+    },
+    "duration": 135,
+    "transit": {
+      "value": 0,
+      "name": "Без пересадки"
+    }
+  },
+  {
+    "id": 23,
+    "company": "Red Wings",
+    "logo": "assets/airline_redwings.svg",
+    "from": "SVO",
+    "to": "LED",
+    "price": 25300,
+    "currency": "RUB",
+    "time": {
+      "start": "13:00",
+      "end": "16:40"
+    },
+    "duration": 200,
+    "transit": {
+      "value": 1,
+      "name": "1 пересадка"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.header h1 {
+  color: #4e148c;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1080px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header h1 {
+    display: none;
+  }
+}
